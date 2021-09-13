@@ -15,13 +15,22 @@ export const HeaderContainer = styled.header`
     a {
       color: #fff;
       font-size: 18px;
-
       padding: 20px;
+      transition: 0.2s;
+    }
+
+    a:hover {
+      color: rgba(255, 255, 255, 0.7);
     }
 
     a:last-child {
       background-color: rgba(0, 0, 0, 0.5);
       margin-right: 0;
+      transition: 0.2s;
+    }
+
+    a:last-child:hover {
+      background-color: rgba(0, 0, 0, 0.8);
     }
   }
 `;

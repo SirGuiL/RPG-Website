@@ -1,4 +1,4 @@
-import { ButtonContainer, ButtonContent } from "./styled";
+import { ButtonContainer, ButtonContent } from "./styles";
 
 const Button = ({ text, link }) => {
   return (
